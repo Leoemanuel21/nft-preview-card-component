@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --Blue-500: hsl(215, 51%, 70%);
+    --Cyan-400: hsl(178, 100%, 50%);
+    --Blue-950-main: hsl(217, 54%, 11%);
+    --Blue-900-card: hsl(216, 50%, 16%);
+    --Blue-800-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    --font-destaque: 'Outfit', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--font-destaque);
+    background-color: var(--Blue-950-main);
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 1.8rem;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+main{
+    background-color: var(--Blue-950-main);
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+#card{
+    background-color: var(--Blue-900-card);
+    max-width: 37.5rem; 
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    line-height: 3rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+#card > img{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+#card > h1{
+    color: var(--White);
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+}
+
+#card > p{
+    color: var(--Blue-500);
+    font-weight: 300;
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+#price{
+    color: var(--Cyan-400);
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+#time{
+    color: var(--Blue-500);
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+#time > img{
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    border: none;
+    border-top: .1rem solid #2f415b;
+    margin: 1rem 0; 
+}
+
+#user{
+    color: var(--Blue-500);
+    display: flex;
+    gap: 1.5rem;
+}
+
+#user > img{
+    width: 10%;
+    border: .1rem solid #ffffff;
+    border-radius: 50%;
+}
+
+#user > p{
+    font-weight: 300;
+}
+
+#user > p > strong{
+    color: var(--White);
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    color: var(--White);
+    font-weight: 300;
+}
+
+a{
+    color: var(--Cyan-400);
+}
