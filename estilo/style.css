@@ -100,6 +100,7 @@ hr{
 #user{
     color: var(--Blue-500);
     display: flex;
+    align-items: center;
     gap: 1.5rem;
 }
 
