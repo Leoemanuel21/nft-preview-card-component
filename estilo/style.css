@@ -61,6 +61,11 @@ main{
     padding-bottom: 1rem;
 }
 
+#card > h1:hover{
+    color: var(--Cyan-400);
+    cursor: pointer;
+}
+
 #card > p{
     color: var(--Blue-500);
     font-weight: 300;
@@ -116,6 +121,11 @@ hr{
 
 #user > p > strong{
     color: var(--White);
+}
+
+#user > p > strong:hover{
+    color: var(--Cyan-400);
+    cursor: pointer;
 }
 
 footer{
